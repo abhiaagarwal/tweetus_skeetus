@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tweetus-skeetus"
+version = "0.1.0"
+description = ""
+authors = ["Abhi Agarwal <abhiaagarwal01@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tweetus_skeetus"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twitter-api-client = "^0.7.7"
+atprototools = "^0.0.15"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
